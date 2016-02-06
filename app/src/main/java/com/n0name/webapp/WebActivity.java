@@ -16,7 +16,7 @@ public class WebActivity extends Activity {
         // String str = "<body><h2>boga goga</h2><h4>gogo mogo";
         // str += "lala</h4></body>";
 
-//change!
+//change!@@
 
         browser.setWebViewClient(new URLIntercepter());
         //   browser.loadData(str, "text/html", "UTF-8");
