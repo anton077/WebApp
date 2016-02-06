@@ -15,7 +15,10 @@ public class WebActivity extends Activity {
         browser.getSettings().setJavaScriptEnabled(true);
         // String str = "<body><h2>boga goga</h2><h4>gogo mogo";
         // str += "lala</h4></body>";
-        //change!
+
+        
+//change!
+
         browser.setWebViewClient(new URLIntercepter());
         //   browser.loadData(str, "text/html", "UTF-8");
         browser.loadUrl("https://n0namesite.wordpress.com/");
